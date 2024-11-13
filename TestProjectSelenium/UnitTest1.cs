@@ -34,5 +34,20 @@ namespace TestProjectSelenium
             IWebElement button = webDriver.FindElement(By.XPath("/html/body/main/div[3]/form/div[4]/button"));
             Assert.AreEqual(false,button.Displayed);
         }
+        [TestCase]
+        public void To()
+        {
+            IWebDriver webDriver = new ChromeDriver();
+            webDriver.Url = "https://kbkdist.ru/";
+            webDriver.Navigate().GoToUrl("https://kbkdist.ru/login/index.php");
+        }
+        [TestCase]
+        public void ToLogin()
+        {
+            IWebDriver webDriver = new ChromeDriver();
+            webDriver.Url = "https://kbkdist.ru/";
+            IWebElement login = webDriver.FindElement(By.XPath("//*[@id=\"header\"]/div/ul/li[2]/div/span/a"));
+            login.Click();
+        }
     }
 }
