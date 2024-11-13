@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTest", "UnitTest\UnitTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestUnitTest", "TestUnitTest\TestUnitTest.csproj", "{A111E839-E5E0-44FD-A241-38E56287BBD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab2", "Lab2\Lab2.csproj", "{743E3607-92EA-44CF-A78B-2545F3BEE41D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab2", "Lab2\Lab2.csproj", "{743E3607-92EA-44CF-A78B-2545F3BEE41D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDec", "TestDec\TestDec.csproj", "{A8EC1279-03A1-4143-BF11-74CD6B132703}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDec", "TestDec\TestDec.csproj", "{A8EC1279-03A1-4143-BF11-74CD6B132703}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectSelenium", "TestProjectSelenium\TestProjectSelenium.csproj", "{8FDD25BB-0532-4700-B2A9-D249762B8E98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A8EC1279-03A1-4143-BF11-74CD6B132703}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8EC1279-03A1-4143-BF11-74CD6B132703}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8EC1279-03A1-4143-BF11-74CD6B132703}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDD25BB-0532-4700-B2A9-D249762B8E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDD25BB-0532-4700-B2A9-D249762B8E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDD25BB-0532-4700-B2A9-D249762B8E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDD25BB-0532-4700-B2A9-D249762B8E98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
